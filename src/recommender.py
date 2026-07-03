@@ -1,0 +1,171 @@
+"""
+Analyse le texte d'un prospect et propose le service le plus adapté.
+"""
+
+from .preprocessing import clean_text
+
+KEYWORDS = {
+    "Site vitrine": [
+        "présenter", "entreprise", "activité", "services", "vitrine", 
+        "professionnel", "cabinet", "association", "artisan", "plomberie",
+        "société", "présence en ligne", "montrer", "coordonnées", "horaires"
+    ],
+    "Site e-commerce": [
+        "vendre", "produits", "boutique", "panier", "paiement", "commande",
+        "livraison", "catalogue", "marchand", "commercialiser", "vente",
+        "en ligne", "payer", "client", "stock", "cosmétiques", "accessoires"
+    ],
+    "Landing page": [
+        "lancement", "capturer", "leads", "promouvoir", "offre", "inscription",
+        "webinaire", "téléchargement", "conversion", "email", "prospect"
+    ],
+    "Application web": [
+        "outil", "gestion", "digitaliser", "processus", "interne", "métier",
+        "personnalisée", "plateforme", "back-office", "suivi", "ressources",
+        "humaines", "contrats", "workflow", "stock"
+    ],
+    "Système de réservation": [
+        "réservation", "rendez-vous", "planning", "disponibilités", "calendrier",
+        "réserver", "table", "consultant", "patient", "cours", "hôtel", "salon"
+    ],
+    "UI/UX et identité visuelle": [
+        "design", "identité visuelle", "charte graphique", "logo", "ergonomie",
+        "interface", "expérience utilisateur", "refonte", "image de marque",
+        "moderne", "couleurs"
+    ],
+    "SEO et visibilité": [
+        "référencement", "SEO", "Google", "visibilité", "positionnement",
+        "moteurs de recherche", "trafic", "audit", "netlinking", "page",
+        "première page"
+    ],
+    "Marketing digital": [
+        "publicité", "campagnes", "réseaux sociaux", "communication", "acquisition",
+        "Google Ads", "Facebook", "Instagram", "emailing", "stratégie",
+        "ciblées", "retargeting"
+    ],
+    "Automatisation": [
+        "automatiser", "tâches répétitives", "connecter", "CRM", "workflow",
+        "gagner du temps", "processus", "relance", "facturation", "synchronisation",
+        "robots", "notifications"
+    ],
+    "Solution IA": [
+        "intelligence artificielle", "chatbot", "assistant", "analyse", "automatisation",
+        "reconnaissance", "prédiction", "génération", "lead", "données", "prédictive"
+    ]
+}
+
+# Dictionnaire des services complémentaires pour chaque catégorie
+COMPLEMENTARY = {
+    "Site vitrine": ["SEO", "UI/UX"],
+    "Site e-commerce": ["SEO", "Identité visuelle", "Marketing digital"],
+    "Landing page": ["Marketing digital", "UI/UX", "SEO"],
+    "Application web": ["UI/UX", "Automatisation", "Solution IA"],
+    "Système de réservation": ["UI/UX", "Site vitrine"],
+    "UI/UX et identité visuelle": ["Site vitrine", "Marketing digital"],
+    "SEO et visibilité": ["Marketing digital", "Site vitrine", "E-commerce"],
+    "Marketing digital": ["SEO", "Landing page", "Identité visuelle"],
+    "Automatisation": ["Application web", "Solution IA"],
+    "Solution IA": ["Application web", "Automatisation", "Marketing digital"]
+}
+
+def recommend_service(user_text):
+    """
+    Fonction principale qui analyse le texte et recommande un service.
+    
+    Args:
+        user_text (str): La description du besoin du prospect.
+    
+    Returns:
+        dict: Dictionnaire contenant :
+            - service (str ou None)
+            - score (int)
+            - reason (str)
+            - complementary_services (list)
+            - ambiguous (bool)
+    """
+    # 1. Nettoyer le texte
+    cleaned_text = clean_text(user_text)
+    
+    # Cas 1 : Texte vide
+    if cleaned_text is None:
+        return {
+            "service": None,
+            "score": 0,
+            "reason": "Le texte est vide ou ne contient que des espaces. Veuillez reformuler votre demande.",
+            "complementary_services": [],
+            "ambiguous": True
+        }
+    
+    # Cas 2 : Demande trop courte (moins de 3 mots)
+    words = cleaned_text.split()
+    if len(words) < 3:
+        return {
+            "service": None,
+            "score": 0,
+            "reason": "Votre demande est trop courte. Pour une meilleure recommandation, décrivez votre besoin en quelques mots (ex: 'Je veux vendre mes produits en ligne').",
+            "complementary_services": [],
+            "ambiguous": True
+        }
+    
+    # 2. Calculer le score pour chaque catégorie
+    scores = {}
+    matched_words = {}
+    
+    for category, keywords in KEYWORDS.items():
+        score = 0
+        found = []
+        for keyword in keywords:
+            # Vérifier si le mot-clé est présent dans le texte (recherche simple)
+            if keyword in cleaned_text:
+                score += 1
+                found.append(keyword)
+        scores[category] = score
+        matched_words[category] = found
+    
+    # 3. Trouver le score maximum
+    max_score = max(scores.values()) if scores else 0
+    
+    # Cas 3 : Aucun mot-clé reconnu
+    if max_score == 0:
+        return {
+            "service": None,
+            "score": 0,
+            "reason": "Je n'ai pas reconnu de mots-clés spécifiques dans votre demande. Pouvez-vous préciser votre besoin ? (ex: vente en ligne, site vitrine, référencement...)",
+            "complementary_services": [],
+            "ambiguous": True
+        }
+    
+    # 4. Identifier les catégories avec le score max
+    best_categories = [cat for cat, sc in scores.items() if sc == max_score]
+    
+    # Cas 4 : Plusieurs catégories avec des scores proches (égalité parfaite)
+    if len(best_categories) > 1:
+        # Vérifier si l'égalité est parfaite (même score)
+        # ou si les scores sont très proches (différence <= 1)
+        # On considère qu'une égalité parfaite ou une différence de 1 est ambiguë
+        return {
+            "service": None,
+            "score": max_score,
+            "reason": f"Votre demande pourrait correspondre à plusieurs services : {', '.join(best_categories)}. Pouvez-vous préciser votre objectif principal ?",
+            "complementary_services": [],
+            "ambiguous": True
+        }
+    
+    # 5. Choix final (une seule catégorie gagnante)
+    chosen_service = best_categories[0]
+    
+    # Construire la justification
+    found_words = matched_words[chosen_service]
+    reason = f"La demande contient des termes liés à '{chosen_service}' : {', '.join(found_words[:5])}."
+    
+    # Récupérer les services complémentaires
+    complementary = COMPLEMENTARY.get(chosen_service, [])
+    
+    # 6. Retourner la recommandation structurée
+    return {
+        "service": chosen_service,
+        "score": max_score,
+        "reason": reason,
+        "complementary_services": complementary,
+        "ambiguous": False
+    }

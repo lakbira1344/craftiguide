@@ -1,25 +1,7 @@
-"""
-Fonctions pour nettoyer et normaliser les saisies des prospects.
-"""
-
 import re
 
 def clean_text(text):
-    """
-    Nettoie le texte saisi par l'utilisateur.
-    
-    Étapes :
-    1. Vérifier que le texte n'est pas vide.
-    2. Convertir en minuscules.
-    3. Supprimer les caractères spéciaux (garder lettres, chiffres, espaces).
-    4. Normaliser les espaces (supprimer les doubles, couper les extrémités).
-    
-    Args:
-        text (str): Le texte brut saisi par l'utilisateur.
-    
-    Returns:
-        str or None: Le texte nettoyé, ou None si le texte est vide.
-    """
+   
     # 1. Vérifier si le texte est vide ou composé uniquement d'espaces
     if text is None or not isinstance(text, str):
         return None

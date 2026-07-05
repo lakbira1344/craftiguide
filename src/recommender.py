@@ -1,7 +1,3 @@
-"""
-Analyse le texte d'un prospect et propose le service le plus adapté.
-"""
-
 from .preprocessing import clean_text
 
 KEYWORDS = {
@@ -69,20 +65,6 @@ COMPLEMENTARY = {
 }
 
 def recommend_service(user_text):
-    """
-    Fonction principale qui analyse le texte et recommande un service.
-    
-    Args:
-        user_text (str): La description du besoin du prospect.
-    
-    Returns:
-        dict: Dictionnaire contenant :
-            - service (str ou None)
-            - score (int)
-            - reason (str)
-            - complementary_services (list)
-            - ambiguous (bool)
-    """
     # 1. Nettoyer le texte
     cleaned_text = clean_text(user_text)
     
@@ -138,7 +120,7 @@ def recommend_service(user_text):
     # 4. Identifier les catégories avec le score max
     best_categories = [cat for cat, sc in scores.items() if sc == max_score]
     
-    # Cas 4 : Plusieurs catégories avec des scores proches (égalité parfaite)
+    # Cas 4 : Plusieurs catégories avec des scores proches 
     if len(best_categories) > 1:
         # Vérifier si l'égalité est parfaite (même score)
         # ou si les scores sont très proches (différence <= 1)

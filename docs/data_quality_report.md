@@ -24,18 +24,18 @@
 
 ## 3. Valeurs manquantes
 
-✅ Aucune valeur manquante détectée.
+ Aucune valeur manquante détectée.
 
 ## 4. Doublons
 
-✅ Aucun doublon détecté.
+ Aucun doublon détecté.
 
 ## 5. Catégories sous-représentées
 
 **Seuil minimum requis** : 8 exemples par catégorie
 
-✅ Toutes les catégories respectent le seuil minimum.
+ Toutes les catégories respectent le seuil minimum.
 
 ## 6. Conclusion
 
-✅ Le dataset est de bonne qualité. Il peut être utilisé pour la suite du projet.
+ Le dataset est de bonne qualité. Il peut être utilisé pour la suite du projet.

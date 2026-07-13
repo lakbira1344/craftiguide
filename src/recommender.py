@@ -50,7 +50,6 @@ KEYWORDS = {
     ]
 }
 
-# Dictionnaire des services complémentaires pour chaque catégorie
 COMPLEMENTARY = {
     "Site vitrine": ["SEO", "UI/UX"],
     "Site e-commerce": ["SEO", "Identité visuelle", "Marketing digital"],
@@ -65,10 +64,8 @@ COMPLEMENTARY = {
 }
 
 def recommend_service(user_text):
-    # 1. Nettoyer le texte
     cleaned_text = clean_text(user_text)
     
-    # Cas 1 : Texte vide
     if cleaned_text is None:
         return {
             "service": None,
@@ -77,8 +74,7 @@ def recommend_service(user_text):
             "complementary_services": [],
             "ambiguous": True
         }
-    
-    # Cas 2 : Demande trop courte (moins de 3 mots)
+
     words = cleaned_text.split()
     if len(words) < 3:
         return {
@@ -88,8 +84,7 @@ def recommend_service(user_text):
             "complementary_services": [],
             "ambiguous": True
         }
-    
-    # 2. Calculer le score pour chaque catégorie
+   
     scores = {}
     matched_words = {}
     
@@ -97,17 +92,14 @@ def recommend_service(user_text):
         score = 0
         found = []
         for keyword in keywords:
-            # Vérifier si le mot-clé est présent dans le texte (recherche simple)
             if keyword in cleaned_text:
                 score += 1
                 found.append(keyword)
         scores[category] = score
         matched_words[category] = found
     
-    # 3. Trouver le score maximum
     max_score = max(scores.values()) if scores else 0
-    
-    # Cas 3 : Aucun mot-clé reconnu
+
     if max_score == 0:
         return {
             "service": None,
@@ -116,15 +108,11 @@ def recommend_service(user_text):
             "complementary_services": [],
             "ambiguous": True
         }
-    
-    # 4. Identifier les catégories avec le score max
+
     best_categories = [cat for cat, sc in scores.items() if sc == max_score]
-    
-    # Cas 4 : Plusieurs catégories avec des scores proches 
+
     if len(best_categories) > 1:
-        # Vérifier si l'égalité est parfaite (même score)
-        # ou si les scores sont très proches (différence <= 1)
-        # On considère qu'une égalité parfaite ou une différence de 1 est ambiguë
+       
         return {
             "service": None,
             "score": max_score,
@@ -133,17 +121,14 @@ def recommend_service(user_text):
             "ambiguous": True
         }
     
-    # 5. Choix final (une seule catégorie gagnante)
     chosen_service = best_categories[0]
     
-    # Construire la justification
+  
     found_words = matched_words[chosen_service]
     reason = f"La demande contient des termes liés à '{chosen_service}' : {', '.join(found_words[:5])}."
     
-    # Récupérer les services complémentaires
     complementary = COMPLEMENTARY.get(chosen_service, [])
-    
-    # 6. Retourner la recommandation structurée
+ 
     return {
         "service": chosen_service,
         "score": max_score,

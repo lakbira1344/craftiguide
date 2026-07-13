@@ -1,0 +1,181 @@
+﻿id,text,category,service_display,secondary_service,example_sector,language,difficulty,ambiguous
+CG-001,Je ne sais pas par où commencer pour développer la présence digitale de mon entreprise.,digital_strategy,Stratégie digitale,seo,Services professionnels,fr,intermédiaire,non
+CG-002,Nous avons plusieurs idées marketing mais aucune feuille de route claire.,digital_strategy,Stratégie digitale,seo,Commerce,fr,intermédiaire,oui
+CG-003,Je souhaite définir une stratégie digitale complète pour les douze prochains mois.,digital_strategy,Stratégie digitale,seo,Tourisme,fr,intermédiaire,non
+CG-004,"Mon entreprise a un site et des réseaux sociaux, mais les actions ne sont pas coordonnées.",digital_strategy,Stratégie digitale,seo,Immobilier,fr,intermédiaire,oui
+CG-005,J’ai besoin d’un audit global de notre présence en ligne et de recommandations prioritaires.,digital_strategy,Stratégie digitale,seo,Santé,fr,intermédiaire,oui
+CG-006,Nous voulons clarifier notre positionnement digital face à nos concurrents.,digital_strategy,Stratégie digitale,seo,Formation,fr,simple,non
+CG-007,"Je cherche un plan d’action avec des objectifs, des indicateurs et un budget réaliste.",digital_strategy,Stratégie digitale,seo,Automobile,fr,intermédiaire,oui
+CG-008,Notre startup veut identifier les canaux les plus rentables pour acquérir des clients.,digital_strategy,Stratégie digitale,seo,Agriculture,fr,intermédiaire,non
+CG-009,Nous lançons une nouvelle marque et avons besoin d’une stratégie de croissance numérique.,digital_strategy,Stratégie digitale,seo,Restauration,fr,intermédiaire,oui
+CG-010,Je veux comprendre pourquoi nos actions digitales ne génèrent pas assez de résultats.,digital_strategy,Stratégie digitale,seo,Technologie,fr,intermédiaire,non
+CG-011,"Nous souhaitons structurer notre marketing, notre site et nos campagnes autour d’une vision commune.",digital_strategy,Stratégie digitale,seo,Association,fr,intermédiaire,oui
+CG-012,J’ai besoin d’un diagnostic de notre écosystème digital avant d’investir davantage.,digital_strategy,Stratégie digitale,seo,Industrie,fr,intermédiaire,non
+CG-013,Notre direction demande une roadmap digitale avec des priorités mesurables.,digital_strategy,Stratégie digitale,seo,Beauté & bien-être,fr,simple,non
+CG-014,"Je souhaite améliorer la cohérence entre notre communication, nos ventes et notre présence web.",digital_strategy,Stratégie digitale,seo,Finance,fr,intermédiaire,oui
+CG-015,Nous avons besoin d’un accompagnement stratégique pour accélérer notre transformation digitale.,digital_strategy,Stratégie digitale,seo,Artisanat,fr,intermédiaire,non
+CG-016,Je veux développer la présence de mon entreprise sur Instagram et Facebook.,social_media,Gestion des réseaux sociaux,content_marketing,Services professionnels,fr,intermédiaire,oui
+CG-017,Nos réseaux sociaux sont inactifs et nous avons besoin d’un calendrier de publication.,social_media,Gestion des réseaux sociaux,content_marketing,Commerce,fr,intermédiaire,oui
+CG-018,Je cherche une équipe pour créer des Reels et gérer notre communauté.,social_media,Gestion des réseaux sociaux,content_marketing,Tourisme,fr,intermédiaire,oui
+CG-019,Nous voulons augmenter l’engagement et le nombre d’abonnés sur nos pages.,social_media,Gestion des réseaux sociaux,content_marketing,Immobilier,fr,intermédiaire,oui
+CG-020,J’ai besoin de contenus réguliers pour LinkedIn afin de renforcer notre image B2B.,social_media,Gestion des réseaux sociaux,content_marketing,Santé,fr,intermédiaire,non
+CG-021,Notre marque souhaite lancer une stratégie TikTok adaptée à un public jeune.,social_media,Gestion des réseaux sociaux,content_marketing,Formation,fr,intermédiaire,non
+CG-022,Nous recevons peu d’interactions sur nos publications et voulons améliorer les résultats.,social_media,Gestion des réseaux sociaux,content_marketing,Automobile,fr,intermédiaire,oui
+CG-023,Je cherche un community manager pour répondre aux messages et animer la page.,social_media,Gestion des réseaux sociaux,content_marketing,Agriculture,fr,intermédiaire,oui
+CG-024,Nous voulons professionnaliser nos visuels et notre ligne éditoriale sur les réseaux sociaux.,social_media,Gestion des réseaux sociaux,content_marketing,Restauration,fr,intermédiaire,oui
+CG-025,"Notre restaurant a besoin de publications, stories et vidéos pour attirer plus de clients.",social_media,Gestion des réseaux sociaux,content_marketing,Technologie,fr,intermédiaire,oui
+CG-026,Je souhaite transformer nos réseaux sociaux en véritable canal d’acquisition.,social_media,Gestion des réseaux sociaux,content_marketing,Association,fr,simple,non
+CG-027,Nous avons besoin d’un plan mensuel avec des idées de contenus et des statistiques.,social_media,Gestion des réseaux sociaux,content_marketing,Industrie,fr,intermédiaire,oui
+CG-028,Je veux améliorer la visibilité de ma marque grâce à des contenus engageants.,social_media,Gestion des réseaux sociaux,content_marketing,Beauté & bien-être,fr,intermédiaire,non
+CG-029,Nous souhaitons gérer plusieurs plateformes avec une communication cohérente.,social_media,Gestion des réseaux sociaux,content_marketing,Finance,fr,simple,oui
+CG-030,Mon entreprise veut publier plus souvent sans perdre en qualité ni en identité.,social_media,Gestion des réseaux sociaux,content_marketing,Artisanat,fr,intermédiaire,non
+CG-031,Je veux apparaître dans les premiers résultats Google pour mes services.,seo,SEO & référencement naturel,content_marketing,Services professionnels,fr,intermédiaire,non
+CG-032,Notre site reçoit très peu de trafic naturel et nous voulons améliorer son référencement.,seo,SEO & référencement naturel,content_marketing,Commerce,fr,intermédiaire,oui
+CG-033,J’ai besoin d’un audit SEO complet pour identifier les problèmes techniques.,seo,SEO & référencement naturel,content_marketing,Tourisme,fr,intermédiaire,oui
+CG-034,Mon entreprise souhaite être mieux visible localement sur Google Maps et les recherches proches.,seo,SEO & référencement naturel,content_marketing,Immobilier,fr,intermédiaire,oui
+CG-035,Nous voulons trouver les bons mots-clés pour attirer des prospects qualifiés.,seo,SEO & référencement naturel,content_marketing,Santé,fr,intermédiaire,non
+CG-036,Notre site est lent et ses performances semblent pénaliser son classement Google.,seo,SEO & référencement naturel,content_marketing,Formation,fr,intermédiaire,oui
+CG-037,Je cherche une stratégie SEO durable plutôt que de dépendre uniquement de la publicité.,seo,SEO & référencement naturel,content_marketing,Automobile,fr,intermédiaire,non
+CG-038,"Nous avons besoin d’optimiser les pages, les balises et la structure du site.",seo,SEO & référencement naturel,content_marketing,Agriculture,fr,intermédiaire,oui
+CG-039,Je souhaite créer du contenu qui se positionne sur des recherches importantes pour mon activité.,seo,SEO & référencement naturel,content_marketing,Restauration,fr,intermédiaire,non
+CG-040,Notre boutique en ligne doit gagner en visibilité sur les catégories de produits.,seo,SEO & référencement naturel,content_marketing,Technologie,fr,intermédiaire,non
+CG-041,Je veux améliorer le référencement local de mon agence à Marrakech.,seo,SEO & référencement naturel,content_marketing,Association,fr,intermédiaire,non
+CG-042,Nos concurrents apparaissent avant nous sur Google et nous voulons comprendre pourquoi.,seo,SEO & référencement naturel,content_marketing,Industrie,fr,intermédiaire,oui
+CG-043,"Nous souhaitons suivre nos positions, notre trafic organique et les conversions issues du SEO.",seo,SEO & référencement naturel,content_marketing,Beauté & bien-être,fr,intermédiaire,oui
+CG-044,J’ai besoin d’améliorer les Core Web Vitals et l’architecture SEO de mon site.,seo,SEO & référencement naturel,content_marketing,Finance,fr,intermédiaire,oui
+CG-045,Nous voulons obtenir plus de demandes grâce aux recherches organiques.,seo,SEO & référencement naturel,content_marketing,Artisanat,fr,simple,non
+CG-046,Je souhaite créer un site professionnel pour présenter mon entreprise et mes services.,web_development,Site vitrine & développement web,seo,Services professionnels,fr,intermédiaire,oui
+CG-047,Notre société n’a pas encore de site web et veut renforcer sa crédibilité.,web_development,Site vitrine & développement web,seo,Commerce,fr,intermédiaire,oui
+CG-048,J’ai besoin d’un site vitrine moderne avec un formulaire de contact.,web_development,Site vitrine & développement web,seo,Tourisme,fr,intermédiaire,non
+CG-049,Nous voulons refaire notre ancien site pour le rendre plus rapide et adapté au mobile.,web_development,Site vitrine & développement web,seo,Immobilier,fr,intermédiaire,oui
+CG-050,Je cherche un site administrable où je peux modifier les textes et les images.,web_development,Site vitrine & développement web,seo,Santé,fr,intermédiaire,oui
+CG-051,Mon cabinet a besoin d’un site sobre pour présenter l’équipe et les prestations.,web_development,Site vitrine & développement web,seo,Formation,fr,intermédiaire,oui
+CG-052,Nous lançons une nouvelle activité et souhaitons une présence web professionnelle.,web_development,Site vitrine & développement web,seo,Automobile,fr,intermédiaire,oui
+CG-053,Je veux centraliser les informations de mon entreprise sur un site clair et responsive.,web_development,Site vitrine & développement web,seo,Agriculture,fr,intermédiaire,oui
+CG-054,Notre site actuel est dépassé et ne reflète plus notre image de marque.,web_development,Site vitrine & développement web,seo,Restauration,fr,intermédiaire,oui
+CG-055,J’ai besoin d’un site multilingue pour présenter nos services au Maroc et à l’international.,web_development,Site vitrine & développement web,seo,Technologie,fr,intermédiaire,oui
+CG-056,Nous souhaitons améliorer l’expérience utilisateur et la performance de notre site.,web_development,Site vitrine & développement web,seo,Association,fr,intermédiaire,oui
+CG-057,"Je veux un site simple avec nos réalisations, nos coordonnées et un bouton WhatsApp.",web_development,Site vitrine & développement web,seo,Industrie,fr,intermédiaire,oui
+CG-058,Notre association a besoin d’un site pour présenter ses actions et publier des actualités.,web_development,Site vitrine & développement web,seo,Beauté & bien-être,fr,intermédiaire,oui
+CG-059,Je souhaite créer un portfolio en ligne professionnel pour présenter mes projets.,web_development,Site vitrine & développement web,seo,Finance,fr,intermédiaire,non
+CG-060,Nous voulons une refonte complète avec un design moderne et un meilleur parcours client.,web_development,Site vitrine & développement web,seo,Artisanat,fr,intermédiaire,oui
+CG-061,Je veux vendre mes produits en ligne avec une boutique professionnelle.,ecommerce,E-commerce,online_ads,Services professionnels,fr,intermédiaire,non
+CG-062,"Nous avons besoin d’un catalogue, d’un panier et d’un système de commande.",ecommerce,E-commerce,online_ads,Commerce,fr,intermédiaire,oui
+CG-063,Je souhaite créer un site e-commerce avec paiement en ligne sécurisé.,ecommerce,E-commerce,online_ads,Tourisme,fr,intermédiaire,non
+CG-064,Notre magasin veut commencer à vendre sur internet et gérer les stocks.,ecommerce,E-commerce,online_ads,Immobilier,fr,intermédiaire,oui
+CG-065,J’ai besoin d’une boutique multilingue avec plusieurs devises.,ecommerce,E-commerce,online_ads,Santé,fr,simple,oui
+CG-066,Nous voulons migrer notre catalogue vers une plateforme e-commerce plus moderne.,ecommerce,E-commerce,online_ads,Formation,fr,intermédiaire,non
+CG-067,"Je cherche une solution pour gérer les produits, les commandes et les clients.",ecommerce,E-commerce,online_ads,Automobile,fr,intermédiaire,oui
+CG-068,Notre marque souhaite améliorer le tunnel d’achat et réduire les abandons de panier.,ecommerce,E-commerce,online_ads,Agriculture,fr,intermédiaire,oui
+CG-069,Je veux proposer la livraison et le paiement à la réception sur ma boutique.,ecommerce,E-commerce,online_ads,Restauration,fr,intermédiaire,oui
+CG-070,Nous avons besoin d’un espace administrateur pour ajouter facilement de nouveaux produits.,ecommerce,E-commerce,online_ads,Technologie,fr,intermédiaire,non
+CG-071,Je souhaite vendre des formations et des produits numériques depuis mon site.,ecommerce,E-commerce,online_ads,Association,fr,intermédiaire,oui
+CG-072,Notre boutique actuelle est lente et le processus de commande est compliqué.,ecommerce,E-commerce,online_ads,Industrie,fr,intermédiaire,oui
+CG-073,Je veux connecter ma boutique en ligne à WhatsApp et aux réseaux sociaux.,ecommerce,E-commerce,online_ads,Beauté & bien-être,fr,intermédiaire,oui
+CG-074,Nous souhaitons lancer une marketplace avec plusieurs catégories de produits.,ecommerce,E-commerce,online_ads,Finance,fr,simple,oui
+CG-075,J’ai besoin d’un e-commerce optimisé pour mobile afin d’augmenter les ventes.,ecommerce,E-commerce,online_ads,Artisanat,fr,intermédiaire,non
+CG-076,Nous avons besoin d’une application web pour gérer nos opérations internes.,web_application,Application web sur mesure,automation_ai,Services professionnels,fr,intermédiaire,non
+CG-077,Je souhaite créer une plateforme SaaS avec des comptes utilisateurs et des abonnements.,web_application,Application web sur mesure,automation_ai,Commerce,fr,intermédiaire,oui
+CG-078,Notre équipe veut un tableau de bord pour suivre les ventes et les performances.,web_application,Application web sur mesure,automation_ai,Tourisme,fr,intermédiaire,oui
+CG-079,J’ai besoin d’un espace client sécurisé avec des documents et des notifications.,web_application,Application web sur mesure,automation_ai,Immobilier,fr,intermédiaire,oui
+CG-080,Nous voulons remplacer plusieurs fichiers Excel par une application centralisée.,web_application,Application web sur mesure,automation_ai,Santé,fr,simple,oui
+CG-081,Je cherche à développer une plateforme de mise en relation entre clients et prestataires.,web_application,Application web sur mesure,automation_ai,Formation,fr,intermédiaire,oui
+CG-082,Notre entreprise a besoin d’un outil web pour gérer les demandes et les validations.,web_application,Application web sur mesure,automation_ai,Automobile,fr,intermédiaire,oui
+CG-083,Je souhaite intégrer plusieurs API dans une application métier personnalisée.,web_application,Application web sur mesure,automation_ai,Agriculture,fr,simple,oui
+CG-084,Nous voulons créer un portail avec différents rôles et niveaux d’accès.,web_application,Application web sur mesure,automation_ai,Restauration,fr,intermédiaire,oui
+CG-085,J’ai besoin d’une application de gestion adaptée à notre processus spécifique.,web_application,Application web sur mesure,automation_ai,Technologie,fr,intermédiaire,non
+CG-086,Notre équipe veut automatiser le suivi des dossiers depuis une interface web.,web_application,Application web sur mesure,automation_ai,Association,fr,intermédiaire,non
+CG-087,Je souhaite développer un dashboard analytique accessible en ligne.,web_application,Application web sur mesure,automation_ai,Industrie,fr,simple,non
+CG-088,Nous avons besoin d’une plateforme évolutive pour gérer nos utilisateurs et nos services.,web_application,Application web sur mesure,automation_ai,Beauté & bien-être,fr,intermédiaire,oui
+CG-089,"Je veux créer un outil interne pour suivre les tâches, les clients et les échéances.",web_application,Application web sur mesure,automation_ai,Finance,fr,intermédiaire,oui
+CG-090,Notre projet nécessite une application web complexe avec base de données et authentification.,web_application,Application web sur mesure,automation_ai,Artisanat,fr,intermédiaire,oui
+CG-091,Je veux permettre à mes clients de réserver un service directement en ligne.,booking_system,Système de réservation,web_development,Services professionnels,fr,intermédiaire,non
+CG-092,Notre agence de location a besoin d’un système de réservation pour les véhicules.,booking_system,Système de réservation,web_development,Commerce,fr,intermédiaire,non
+CG-093,Je souhaite afficher les disponibilités et recevoir les demandes depuis le site.,booking_system,Système de réservation,web_development,Tourisme,fr,intermédiaire,oui
+CG-094,Mon cabinet veut proposer la prise de rendez-vous avec choix du créneau.,booking_system,Système de réservation,web_development,Immobilier,fr,intermédiaire,oui
+CG-095,Nous avons besoin d’un calendrier de réservation synchronisé avec les confirmations.,booking_system,Système de réservation,web_development,Santé,fr,intermédiaire,non
+CG-096,Je veux éviter les doubles réservations et centraliser toutes les demandes.,booking_system,Système de réservation,web_development,Formation,fr,intermédiaire,oui
+CG-097,Notre hôtel souhaite recevoir des réservations depuis son propre site.,booking_system,Système de réservation,web_development,Automobile,fr,simple,non
+CG-098,"Je cherche une solution de booking avec dates, tarifs et options supplémentaires.",booking_system,Système de réservation,web_development,Agriculture,fr,intermédiaire,oui
+CG-099,Nous voulons envoyer automatiquement une confirmation après chaque réservation.,booking_system,Système de réservation,web_development,Restauration,fr,simple,non
+CG-100,Mon salon a besoin d’un système pour réserver les prestations et choisir un horaire.,booking_system,Système de réservation,web_development,Technologie,fr,intermédiaire,oui
+CG-101,"Je souhaite gérer les réservations, les annulations et les disponibilités depuis un tableau de bord.",booking_system,Système de réservation,web_development,Association,fr,intermédiaire,oui
+CG-102,Notre activité touristique veut proposer la réservation d’excursions en ligne.,booking_system,Système de réservation,web_development,Industrie,fr,simple,non
+CG-103,Je veux intégrer un formulaire de réservation avec WhatsApp et email.,booking_system,Système de réservation,web_development,Beauté & bien-être,fr,intermédiaire,oui
+CG-104,Nous avons besoin d’un système de rendez-vous pour plusieurs membres de l’équipe.,booking_system,Système de réservation,web_development,Finance,fr,intermédiaire,oui
+CG-105,Je cherche une plateforme simple pour gérer les locations et le planning.,booking_system,Système de réservation,web_development,Artisanat,fr,intermédiaire,oui
+CG-106,Je veux lancer une campagne Google Ads pour obtenir rapidement des prospects.,online_ads,Publicité en ligne,digital_strategy,Services professionnels,fr,intermédiaire,non
+CG-107,Nous avons besoin de publicités Facebook et Instagram pour augmenter les ventes.,online_ads,Publicité en ligne,digital_strategy,Commerce,fr,intermédiaire,oui
+CG-108,Je cherche à réduire le coût par lead de mes campagnes actuelles.,online_ads,Publicité en ligne,digital_strategy,Tourisme,fr,intermédiaire,non
+CG-109,Notre entreprise veut faire du remarketing auprès des visiteurs du site.,online_ads,Publicité en ligne,digital_strategy,Immobilier,fr,intermédiaire,non
+CG-110,J’ai besoin d’une campagne LinkedIn Ads pour cibler des décideurs B2B.,online_ads,Publicité en ligne,digital_strategy,Santé,fr,intermédiaire,non
+CG-111,Nous souhaitons promouvoir un nouveau produit avec des publicités TikTok.,online_ads,Publicité en ligne,digital_strategy,Formation,fr,simple,non
+CG-112,Je veux suivre précisément les conversions et le retour sur investissement publicitaire.,online_ads,Publicité en ligne,digital_strategy,Automobile,fr,intermédiaire,oui
+CG-113,Nos campagnes dépensent beaucoup sans générer suffisamment de résultats.,online_ads,Publicité en ligne,digital_strategy,Agriculture,fr,simple,non
+CG-114,"Je cherche une agence pour gérer le ciblage, les annonces et l’optimisation quotidienne.",online_ads,Publicité en ligne,digital_strategy,Restauration,fr,intermédiaire,oui
+CG-115,Nous voulons générer des demandes de devis grâce à Google Search.,online_ads,Publicité en ligne,digital_strategy,Technologie,fr,intermédiaire,non
+CG-116,J’ai besoin de tester plusieurs visuels et messages publicitaires.,online_ads,Publicité en ligne,digital_strategy,Association,fr,simple,oui
+CG-117,Notre marque souhaite toucher une nouvelle audience avec des campagnes sociales.,online_ads,Publicité en ligne,digital_strategy,Industrie,fr,intermédiaire,non
+CG-118,Je veux mettre en place le tracking avant de lancer nos annonces.,online_ads,Publicité en ligne,digital_strategy,Beauté & bien-être,fr,intermédiaire,non
+CG-119,Nous avons besoin d’une stratégie publicitaire avec un budget et des objectifs mesurables.,online_ads,Publicité en ligne,digital_strategy,Finance,fr,intermédiaire,oui
+CG-120,Je souhaite augmenter les ventes en ligne grâce à des campagnes orientées conversion.,online_ads,Publicité en ligne,digital_strategy,Artisanat,fr,intermédiaire,non
+CG-121,Je veux créer une identité visuelle complète pour ma nouvelle entreprise.,branding_identity,Branding & identité visuelle,web_development,Services professionnels,fr,intermédiaire,non
+CG-122,Notre logo est ancien et nous souhaitons moderniser l’image de la marque.,branding_identity,Branding & identité visuelle,web_development,Commerce,fr,intermédiaire,oui
+CG-123,"J’ai besoin d’un logo, d’une palette de couleurs et d’une charte graphique.",branding_identity,Branding & identité visuelle,web_development,Tourisme,fr,intermédiaire,oui
+CG-124,Nous lançons un nouveau produit et voulons construire une marque mémorable.,branding_identity,Branding & identité visuelle,web_development,Immobilier,fr,intermédiaire,oui
+CG-125,Je cherche à clarifier le positionnement et la personnalité de notre marque.,branding_identity,Branding & identité visuelle,web_development,Santé,fr,intermédiaire,oui
+CG-126,Notre communication manque de cohérence entre le site et les réseaux sociaux.,branding_identity,Branding & identité visuelle,web_development,Formation,fr,intermédiaire,oui
+CG-127,Je souhaite créer un univers visuel professionnel qui inspire confiance.,branding_identity,Branding & identité visuelle,web_development,Automobile,fr,simple,non
+CG-128,Nous avons besoin de modèles graphiques pour nos publications et présentations.,branding_identity,Branding & identité visuelle,web_development,Agriculture,fr,intermédiaire,oui
+CG-129,Je veux faire un rebranding complet sans perdre l’identité actuelle.,branding_identity,Branding & identité visuelle,web_development,Restauration,fr,simple,oui
+CG-130,"Notre startup a besoin d’un nom, d’un logo et d’une direction artistique.",branding_identity,Branding & identité visuelle,web_development,Technologie,fr,intermédiaire,oui
+CG-131,"Je souhaite harmoniser les couleurs, les typographies et les supports de l’entreprise.",branding_identity,Branding & identité visuelle,web_development,Association,fr,intermédiaire,oui
+CG-132,Nous voulons une identité premium adaptée à un marché international.,branding_identity,Branding & identité visuelle,web_development,Industrie,fr,simple,non
+CG-133,J’ai besoin d’un guide de marque pour que toute l’équipe communique de la même manière.,branding_identity,Branding & identité visuelle,web_development,Beauté & bien-être,fr,intermédiaire,non
+CG-134,Notre entreprise veut améliorer sa crédibilité grâce à une image plus professionnelle.,branding_identity,Branding & identité visuelle,web_development,Finance,fr,intermédiaire,non
+CG-135,Je cherche une identité de marque distinctive pour nous différencier des concurrents.,branding_identity,Branding & identité visuelle,web_development,Artisanat,fr,intermédiaire,non
+CG-136,Nous avons besoin d’articles de blog pour attirer et informer nos prospects.,content_marketing,Content marketing,seo,Services professionnels,fr,intermédiaire,oui
+CG-137,Je souhaite créer un calendrier éditorial pour publier régulièrement.,content_marketing,Content marketing,seo,Commerce,fr,simple,non
+CG-138,Notre entreprise veut expliquer ses services avec des contenus plus pédagogiques.,content_marketing,Content marketing,seo,Tourisme,fr,intermédiaire,non
+CG-139,J’ai besoin de textes professionnels pour le site et les pages de services.,content_marketing,Content marketing,seo,Immobilier,fr,intermédiaire,oui
+CG-140,Nous voulons utiliser le storytelling pour renforcer la confiance dans notre marque.,content_marketing,Content marketing,seo,Santé,fr,intermédiaire,non
+CG-141,Je cherche une stratégie de contenu qui soutient le référencement naturel.,content_marketing,Content marketing,seo,Formation,fr,intermédiaire,non
+CG-142,Notre équipe souhaite lancer une newsletter mensuelle utile pour les clients.,content_marketing,Content marketing,seo,Automobile,fr,intermédiaire,non
+CG-143,Je veux produire des guides et des ressources pour générer des leads.,content_marketing,Content marketing,seo,Agriculture,fr,intermédiaire,oui
+CG-144,Nous avons besoin de contenus adaptés à chaque étape du parcours client.,content_marketing,Content marketing,seo,Restauration,fr,intermédiaire,non
+CG-145,Je souhaite transformer notre expertise en articles et publications accessibles.,content_marketing,Content marketing,seo,Technologie,fr,simple,oui
+CG-146,Notre marque manque d’idées et de cohérence dans sa communication éditoriale.,content_marketing,Content marketing,seo,Association,fr,intermédiaire,oui
+CG-147,"Je cherche à créer du contenu qui éduque, engage et convertit.",content_marketing,Content marketing,seo,Industrie,fr,intermédiaire,oui
+CG-148,Nous voulons rédiger des études de cas pour présenter nos réalisations.,content_marketing,Content marketing,seo,Beauté & bien-être,fr,intermédiaire,non
+CG-149,J’ai besoin d’améliorer les textes de notre site pour mieux convaincre les visiteurs.,content_marketing,Content marketing,seo,Finance,fr,intermédiaire,non
+CG-150,Nous souhaitons produire des contenus réguliers pour le web et les réseaux sociaux.,content_marketing,Content marketing,seo,Artisanat,fr,intermédiaire,oui
+CG-151,J’ai besoin de cartes de visite professionnelles pour mon équipe.,print_production,Print & production,branding_identity,Services professionnels,fr,simple,non
+CG-152,Nous voulons imprimer des brochures pour présenter nos services.,print_production,Print & production,branding_identity,Commerce,fr,simple,non
+CG-153,Je cherche à créer des flyers pour une campagne locale.,print_production,Print & production,branding_identity,Tourisme,fr,simple,non
+CG-154,Notre boutique a besoin d’une enseigne et de supports de signalétique.,print_production,Print & production,branding_identity,Immobilier,fr,intermédiaire,oui
+CG-155,Je souhaite concevoir un packaging professionnel pour mes produits.,print_production,Print & production,branding_identity,Santé,fr,simple,non
+CG-156,Nous avons besoin d’affiches grand format pour un événement.,print_production,Print & production,branding_identity,Formation,fr,simple,non
+CG-157,Je veux imprimer un catalogue avec nos produits et nos tarifs.,print_production,Print & production,branding_identity,Automobile,fr,intermédiaire,oui
+CG-158,Notre entreprise souhaite produire des kakémonos et des supports pour un salon.,print_production,Print & production,branding_identity,Agriculture,fr,intermédiaire,oui
+CG-159,J’ai besoin de stickers personnalisés pour les véhicules de la société.,print_production,Print & production,branding_identity,Restauration,fr,intermédiaire,non
+CG-160,Nous voulons préparer des supports imprimés cohérents avec notre identité visuelle.,print_production,Print & production,branding_identity,Technologie,fr,intermédiaire,non
+CG-161,Je cherche une solution complète de conception et d’impression de dépliants.,print_production,Print & production,branding_identity,Association,fr,intermédiaire,oui
+CG-162,Notre restaurant a besoin de menus imprimés et de supports de table.,print_production,Print & production,branding_identity,Industrie,fr,intermédiaire,oui
+CG-163,Je souhaite réaliser des étiquettes et emballages pour une nouvelle gamme.,print_production,Print & production,branding_identity,Beauté & bien-être,fr,intermédiaire,oui
+CG-164,Nous avons besoin de panneaux et de décoration visuelle pour notre espace.,print_production,Print & production,branding_identity,Finance,fr,intermédiaire,oui
+CG-165,Je veux créer des supports physiques de qualité pour renforcer la visibilité de la marque.,print_production,Print & production,branding_identity,Artisanat,fr,intermédiaire,non
+CG-166,Je veux automatiser les réponses aux questions fréquentes de mes clients.,automation_ai,Automatisation & solutions IA,web_application,Services professionnels,fr,intermédiaire,non
+CG-167,Nous avons besoin d’un chatbot intelligent intégré à notre site.,automation_ai,Automatisation & solutions IA,web_application,Commerce,fr,simple,non
+CG-168,Je souhaite utiliser l’intelligence artificielle pour qualifier automatiquement les prospects.,automation_ai,Automatisation & solutions IA,web_application,Tourisme,fr,simple,non
+CG-169,Notre équipe perd du temps sur des tâches répétitives que nous voulons automatiser.,automation_ai,Automatisation & solutions IA,web_application,Immobilier,fr,intermédiaire,non
+CG-170,Je cherche un assistant IA pour générer et organiser du contenu.,automation_ai,Automatisation & solutions IA,web_application,Santé,fr,intermédiaire,oui
+CG-171,Nous voulons connecter plusieurs outils afin d’automatiser le suivi des demandes.,automation_ai,Automatisation & solutions IA,web_application,Formation,fr,intermédiaire,oui
+CG-172,J’ai besoin d’un système intelligent pour analyser des documents et extraire des informations.,automation_ai,Automatisation & solutions IA,web_application,Automobile,fr,intermédiaire,oui
+CG-173,Notre entreprise souhaite mettre en place un workflow automatique après chaque formulaire.,automation_ai,Automatisation & solutions IA,web_application,Agriculture,fr,intermédiaire,non
+CG-174,Je veux créer un assistant virtuel capable de recommander des services.,automation_ai,Automatisation & solutions IA,web_application,Restauration,fr,intermédiaire,non
+CG-175,Nous avons besoin d’automatiser l’envoi des emails et les notifications internes.,automation_ai,Automatisation & solutions IA,web_application,Technologie,fr,intermédiaire,oui
+CG-176,Je souhaite intégrer une fonctionnalité d’IA générative dans notre application.,automation_ai,Automatisation & solutions IA,web_application,Association,fr,simple,non
+CG-177,Notre équipe veut gagner du temps grâce à un outil de classification automatique.,automation_ai,Automatisation & solutions IA,web_application,Industrie,fr,intermédiaire,non
+CG-178,Je cherche une solution pour résumer et analyser les messages reçus.,automation_ai,Automatisation & solutions IA,web_application,Beauté & bien-être,fr,intermédiaire,oui
+CG-179,Nous souhaitons développer un prototype IA adapté à un besoin métier précis.,automation_ai,Automatisation & solutions IA,web_application,Finance,fr,intermédiaire,non
+CG-180,Je veux automatiser la préparation des rapports à partir de nos données.,automation_ai,Automatisation & solutions IA,web_application,Artisanat,fr,intermédiaire,non

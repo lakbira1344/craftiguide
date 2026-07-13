@@ -1,0 +1,4 @@
+Model,Accuracy
+LogisticRegression,0.3055555555555556
+MultinomialNB,0.2777777777777778
+Best_Model,LogisticRegression

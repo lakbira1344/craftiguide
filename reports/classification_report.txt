@@ -1,0 +1,18 @@
+                   precision    recall  f1-score   support
+
+    automation_ai       0.25      0.33      0.29         3
+   booking_system       0.33      0.33      0.33         3
+branding_identity       0.67      0.67      0.67         3
+content_marketing       0.00      0.00      0.00         3
+ digital_strategy       0.00      0.00      0.00         3
+        ecommerce       0.00      0.00      0.00         3
+       online_ads       0.67      0.67      0.67         3
+ print_production       0.25      0.33      0.29         3
+              seo       0.00      0.00      0.00         3
+     social_media       0.00      0.00      0.00         3
+  web_application       0.33      0.67      0.44         3
+  web_development       0.50      0.67      0.57         3
+
+         accuracy                           0.31        36
+        macro avg       0.25      0.31      0.27        36
+     weighted avg       0.25      0.31      0.27        36

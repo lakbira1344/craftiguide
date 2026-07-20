@@ -9,3 +9,23 @@ Texte,Category_Attendue,Category_Predite,Commentaire
 "Je ne sais pas quelle stratégie adopter pour mon business.",digital_strategy,,
 "Nous avons besoin d'articles de blog chaque semaine.",content_marketing,,
 "Pouvez-vous gérer notre page Instagram ?",social_media,,
+
+## Tableau de tests manuels - Semaine 3 (15 phrases)
+
+| Phrase testée | Résultat obtenu | Résultat attendu | Correct ? | Remarque |
+| :--- | :--- | :--- | :--- | :--- |
+| Je veux vendre mes produits en ligne. | E-commerce | E-commerce | ⬜oui | Simple - Vente de produits |
+| Je veux apparaître sur Google. | SEO & référencement naturel | SEO & référencement naturel | ⬜ | Simple - Visibilité |
+| Je veux créer un site professionnel pour mon entreprise. |Site vitrine & développement web   | Site vitrine & développement web | ⬜ | Simple - Site vitrine |
+| Je souhaite créer une boutique en ligne avec paiement sécurisé. | E-commerce  | E-commerce | ⬜ | Détaillé - Paiement inclus |
+| Notre équipe veut remplacer ses fichiers Excel par une plateforme. |  Application web sur mesure  | Application web sur mesure | ⬜ | Détaillé - Outil interne |
+| Je possède une agence de location et je veux recevoir plus de réservations. | Système de réservation | Système de réservation | ⬜ | Détaillé - Réservations |
+| Je veux automatiser les réponses à mes clients avec un chatbot. |  Automatisation & solutions IA | Automatisation & solutions IA | ⬜ | Détaillé - IA |
+| Nous avons besoin d'un logo, d'une charte graphique et d'une identité visuelle. | Branding & identité visuelle | Branding & identité visuelle | ⬜ | Détaillé - Branding |
+| Je veux développer mon activité en ligne. | E-commerce | Stratégie digitale | ⬜ | Ambigüe - Vision globale |
+| Je veux améliorer ma présence sur le web. | Gestion des réseaux sociaux | Stratégie digitale | ⬜ | Ambigüe - Besoin général |
+| J'ai besoin d'un logo et d'un site web pour ma nouvelle marque. | Site vitrine & développement web | Branding & identité visuelle | ⬜ | Multi-intentions (Logo + Site) |
+| Je veux lancer des publicités Facebook et gérer ma page Instagram. | Gestion des réseaux sociaux | Publicité en ligne | ⬜ | Multi-intentions (Ads + Social) |
+| Nous avons besoin d'articles pour notre blog et d'une newsletter. | Content marketing | Content marketing | ⬜ | Multi-intentions (Blog + Newsletter) |
+| Je cherche des cartes de visite professionnelles pour mon équipe. | Print & production | Print & production | ⬜ | Simple - Impression |
+| Je veux être mieux référencé sur Google à Marrakech. | SEO & référencement naturel | SEO & référencement naturel | ⬜ | Simple - SEO local |
